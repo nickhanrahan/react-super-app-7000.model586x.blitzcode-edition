@@ -43,13 +43,13 @@ Ok guys so basically we use a [client-server model](https://en.wikipedia.org/wik
 │   └── Dockerfile - To build a Docker image
 ```
 
-### Common Dependencies
+## Common Dependencies
 
 - Node 20
 - Typescript v5
 - express v4
 
-### Client Sh!t
+## Client Sh!t
 
 One word: React.
 
@@ -64,7 +64,7 @@ Client uses server side rendering (SSR) with the help of Apollo Client. API requ
 - Webpack v5
 - GraphQL 16.7
 
-### API Server Sh!t
+## API Server Sh!t
 
 What more is there to say other than it's an API server.
 
