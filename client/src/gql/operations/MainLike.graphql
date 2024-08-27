@@ -1,0 +1,3 @@
+mutation MainLike($like: Int) {
+  mainLike(like: $like)
+}

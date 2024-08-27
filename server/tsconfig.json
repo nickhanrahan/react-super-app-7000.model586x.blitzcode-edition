@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "esnext",
+      "dom",
+    ],
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "outDir": "dist", // Where compiled js files will be emitted, maintaining directory structure of source files
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "resolveJsonModule": true, // Allows importing modules with .json extension
+    "types": ["node"],
+  },
+  "include": ["src/"],
+  "exclude": ["node_modules"],
+  "tsc-alias": {
+    "resolveFullPaths": true, // Adds .js file extensions to import statements in compiled typescript
+  }
+}

@@ -1,0 +1,10 @@
+node_modules
+client/build
+server/dist
+.DS_Store
+yarn-error.log
+.env*
+.flaskenv*
+!.env.example
+!.env.project
+!.env.vault

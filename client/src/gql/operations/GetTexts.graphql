@@ -1,0 +1,6 @@
+query GetTexts {
+  getTexts {
+    text
+    date
+  }
+}
